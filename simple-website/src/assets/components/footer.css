@@ -1,0 +1,32 @@
+.main-footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    flex-wrap: wrap;
+    gap: 15rem;
+
+}
+
+.footer-logo{
+
+    font-size: 3rem;
+}
+
+.socail-media{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 820px) {
+    .main-footer-container{
+
+        gap: 1rem;
+        margin-bottom: 35px;
+    }
+}

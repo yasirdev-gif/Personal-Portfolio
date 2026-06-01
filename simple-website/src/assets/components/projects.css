@@ -1,0 +1,127 @@
+.main-container{
+    display: flex;
+    color: #ffffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    padding: 100px;
+    gap: 12px;
+    background-color: #000000;
+    box-shadow: #000000 0px 0px 10px 0px;
+}
+
+
+
+
+ 
+a:hover{
+    color: white;
+} 
+
+
+/* Section wrapper background */
+.projects-section {
+  padding: 60px 20px;
+  background-color: #121212; /* Deep dark mode background */
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #00D1FF; /* Accent color */
+}
+
+/* ⚡ The Layout Magic: Grid automatically fits cards based on screen size */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Individual Card Styling */
+.project-card {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  /* Applying a smooth transition effect like you asked earlier! */
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px); /* Lift up slightly on hover */
+  border-color: #00D1FF;       /* Border glows green */
+}
+
+.project-title {
+  margin: 0 0 12px 0;
+  font-size: 1.4rem;
+}
+
+.project-desc {
+  color: #aaa;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Small tech language tags */
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.tag {
+  background-color: #2d2d2d;
+  color: #00D1FF;
+  font-size: 0.8rem;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* Action Links buttons */
+.links-container {
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+  transition: opacity 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.btn-live {
+  background-color: #00D1FF;
+  color: #121212;
+}
+
+.btn-live:hover{
+    color: white;
+}
+
+.btn-code {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #555;
+}
